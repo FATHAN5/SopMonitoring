@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOP Monitoring KPI - Team Performance</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+
+    nav {
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+      flex-wrap: wrap;
+    }
+
+    nav button {
+      margin: 5px 15px;
+      background: none;
+      border: none;
+      color: #003366;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    nav button:hover {
+      color: #0074cc;
+    }
+
+    section {
+      display: none;
+      padding: 2rem;
+    }
+
+    section.active {
+      display: block;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #e0e0e0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>SOP Monitoring KPI - Team Performance</h1>
+  </header>
+
+  <nav>
+    <button onclick="showSection('tentangTim')">Tentang Tim</button>
+    <button onclick="showSection('peranIntern')">Peran Intern</button>
+    <button onclick="showSection('flow')">Flow Performance Team</button>
+    <button onclick="showSection('indikator')">Indikator KPI</button>
+    <button onclick="showSection('kertasKerja')">Kertas Kerja Nilai Kinerja</button>
+  </nav>
+
+  <section id="tentangTim" class="active">
+    <h2>Team Performance</h2>
+    <p>Tim Performance adalah bagian dari unit SME & Micro Risk di Bank Mandiri yang memiliki tanggung jawab utama dalam memantau, mengevaluasi, dan menjaga pencapaian kinerja (KPI) seluruh unit kerja dalam segmen SME dan Mikro.</p>
+    <p>Tim ini menjadi penghubung antara manajemen strategis (seperti SPM dan Portofolio Management) dan unit kerja di lapangan (region), untuk memastikan bahwa target-target bisnis dan risiko yang ditetapkan perusahaan bisa dicapai dengan efektif.</p>
+    <h3>Tanggung Jawab Utama Tim Performance</h3>
+    <table>
+      <tr>
+        <th>Area Kerja</th>
+        <th>Penjelasan</th>
+      </tr>
+      <tr>
+        <td>Monitoring KPI</td>
+        <td>Melakukan rekap dan evaluasi pencapaian Key Performance Indicator (KPI) untuk setiap unit wilayah secara berkala.</td>
+      </tr>
+      <tr>
+        <td>Analisis Kinerja</td>
+        <td>Menganalisis tren pencapaian KPI, mengidentifikasi area bermasalah, dan memberikan insight kepada manajemen.</td>
+      </tr>
+      <tr>
+        <td>Validasi Data</td>
+        <td>Memastikan bahwa data KPI yang dikumpulkan dari wilayah valid, lengkap, dan tidak terdapat kejanggalan.</td>
+      </tr>
+      <tr>
+        <td>Pelaporan</td>
+        <td>Menyusun laporan kinerja dalam bentuk dashboard, email ringkasan, atau presentasi untuk unit terkait.</td>
+      </tr>
+      <tr>
+        <td>Koordinasi Strategis</td>
+        <td>Bekerja sama dengan tim lain seperti Portofolio, SPM untuk penyesuaian KPI atau pengambilan keputusan strategis.</td>
+      </tr>
+    </table>
+    <h3>Mengapa Tim Ini Penting?</h3>
+    <p>Tim Performance adalah “mata” manajemen di lapangan. Tanpa monitoring KPI yang kuat, perusahaan tidak tahu apakah strategi berjalan efektif atau tidak. Tim ini juga menjembatani komunikasi data dan realisasi bisnis dari seluruh region ke pusat.</p>
+  </section>
+
+  <section id="peranIntern">
+    <h2>Peran Intern di Tim Performance</h2>
+    <p>Membantu dalam proses input dan validasi data KPI serta menyusun dashboard Excel sederhana.</p>
+  </section>
+
+  <section id="flow">
+    <h2>Flow Performance Team</h2>
+    <h3>Struktur Kerja / Flow Performance Team</h3>
+    <p>Dalam pelaksanaan fungsi monitoring dan pengelolaan kinerja di lingkungan SME & Micro Risk, terdapat dua alur utama yang menjadi pedoman kerja Tim Performance, yaitu:</p>
+
+    <h4>Flow Penetapan Target</h4>
+    <p>Flow ini menggambarkan proses top-down dalam menetapkan target kinerja dari pusat hingga ke level individu. Alur ini digunakan sebagai dasar penyusunan KPI dan distribusi target tahunan/bulanan.</p>
+    <ol>
+      <li><strong>SPM Menetapkan Benchmark KPI:</strong> SPM membuat standar KPI sebagai tolok ukur.</li>
+      <li><strong>Penyampaian Benchmark ke Team Performance:</strong> SPM memberikan benchmark KPI ke team performance.</li>
+      <li><strong>Koordinasi dan Review Target:</strong> Team performance, team portofolio, dan SPM berkoordinasi untuk mereview jika ada penyesuaian, menganalisis, dan berunding mengenai target KPI agar realistis dan dapat dicapai.</li>
+      <li><strong>Team Performance Sampaikan Target ke Region:</strong> Target yang sudah disepakati disampaikan ke masing-masing region oleh team performance.</li>
+      <li><strong>Team Performance Membuat Framework Indikator:</strong> Team performance merancang framework indikator KPI individu yang akan diterapkan di setiap region.</li>
+    </ol>
+    <img src="targetpenetapan.png" alt="Flow Penetapan Target" style="max-width:100%; margin-bottom:20px;" />
+
+    <h4>Flow Pencapaian Realisasi</h4>
+    <p>Flow ini menggambarkan proses bottom-up dalam pelaporan dan pemantauan pencapaian realisasi kinerja yang telah ditetapkan sebelumnya. Alur ini menjadi dasar monitoring kinerja rutin dan evaluasi.</p>
+    <ol>
+      <li><strong>Region Melaksanakan Target KPI:</strong> Region dan individu mulai menjalankan KPI sesuai framework dan target yang sudah ditetapkan.</li>
+      <li><strong>Monitoring oleh Team Performance:</strong> Team performance memantau kinerja tim department dan region secara rutin untuk memastikan target tercapai.</li>
+      <li><strong>Contohnya dengan salah satu Indikator Finansial (BADE):</strong> Misal, setiap individu ditargetkan 2M, dengan 20 karyawan berarti total target 40M.</li>
+      <li><strong>Pelaporan Bulanan:</strong> Pencapaian KPI dilaporkan setiap bulan melalui dashboard regional ke unit kerja.</li>
+      <li><strong>Laporan Tahunan oleh Team Performance:</strong> Team performance menyusun laporan tahunan berisi rangkuman realisasi KPI dan hasil evaluasi, disampaikan ke unit kerja.</li>
+    </ol>
+    <img src="targetrealisasi.png" alt="Flow Pencapaian Realisasi" style="max-width:100%;" />
+  </section>
+
+  <section id="indikator">
+    <h2>Indikator KPI Performance Team – Penjelasan dan Interpretasi Target</h2>
+    <table>
+      <tr>
+        <th>Indikator KPI</th>
+        <th>Penjelasan Singkat</th>
+        <th>Jika Lebih dari Target</th>
+        <th>Jika Kurang dari Target</th>
+      </tr>
+      <tr>
+        <td>Baki Debet (Kol 1–5)</td>
+        <td>Kolektibilitas kredit, Kol 1 = lancar, Kol 5 = macet</td>
+        <td>Kol 1 = Baik</td>
+        <td>kol 2,3,4,5 < dari target = semakin baik</td>
+      </tr>
+      <tr>
+        <td>Restru Normal / Covid Only</td>
+        <td>Kredit restrukturisasi, perlu dimonitor</td>
+        <td>Tinggi = Waspada</td>
+        <td>Rendah = Lebih sehat</td>
+      </tr>
+      <tr>
+        <td>Cost of Credit (%)</td>
+        <td>Biaya kredit karena risiko gagal bayar, termasuk CKPN</td>
+        <td>Tinggi = Buruk</td>
+        <td>Rendah = Baik</td>
+      </tr>
+      <tr>
+        <td>Biaya CKPN (YTD)</td>
+        <td>Total CKPN dibentuk selama tahun berjalan</td>
+        <td>Tinggi = Buruk</td>
+        <td>Rendah = Baik</td>
+      </tr>
+      <tr>
+        <td>LaR Nominal / %</td>
+        <td>LaR adalah bade kol 2,3,4,5,Restru Normal, Restru Covid</td>
+        <td>Tinggi = Buruk</td>
+        <td>Rendah = Baik</td>
+      </tr>
+      <tr>
+        <td>Booking Mix (SME/Micro)</td>
+        <td>% kontribusi booking dibandingkan dengan all booking pada segmen tertentu</td>
+        <td>Tinggi = Baik</td>
+        <td>Rendah = Kurang optimal</td>
+      </tr>
+      <tr>
+        <td>Booking Primary / NTB CASA</td>
+        <td>Kredit ke nasabah baru atau primary product</td>
+        <td>Tinggi = Baik</td>
+        <td>Rendah = Kurang optimal</td>
+      </tr>
+      <tr>
+        <td>DPD 30+ (MoB 6/9)</td>
+        <td>Rasio keterlambatan >30 hari di bulan ke-6 atau 9 sejak booking</td>
+        <td>Tinggi = Buruk</td>
+        <td>Rendah = Baik</td>
+      </tr>
+      <tr>
+        <td>Limit Booking DPD30+ MoB6</td>
+        <td>Total nilai kredit yang masuk ke DPD 30+ pada MoB 6</td>
+        <td>Tinggi = Buruk</td>
+        <td>Rendah = Baik</td>
+      </tr>
+      <tr>
+        <td>CIR (Cost to Income Ratio)</td>
+        <td>Efisiensi operasional; rasio antara biaya & pendapatan</td>
+        <td>Tinggi = Tidak efisien</td>
+        <td>Rendah = Baik</td>
+      </tr>
+      <tr>
+        <td>NII (Net Interest Income)</td>
+        <td>Pendapatan bunga bersih</td>
+        <td>Tinggi = Baik</td>
+        <td>Rendah = Kurang optimal</td>
+      </tr>
+      <tr>
+        <td>Average Balance Kredit(SME/Micro)</td>
+        <td>Rata-rata baki debet nasabah selama periode tertentu</td>
+        <td>Tinggi = Baik</td>
+        <td>Rendah = Kurang optimal</td>
+      </tr>
+      <tr>
+        <td>Growth Avg Balance</td>
+        <td>Pertumbuhan rata-rata saldo pinjaman</td>
+        <td>Tinggi = Baik</td>
+        <td>Negatif = Buruk</td>
+      </tr>
+      <tr>
+        <td>Booking Kredit Micro</td>
+        <td>Nilai penyaluran kredit mikro</td>
+        <td>Tinggi = Baik</td>
+        <td>Rendah = Kurang maksimal</td>
+      </tr>
+      <tr>
+        <td>Penyaluran Kredit UMKM Berkelanjutan</td>
+        <td>Pembiayaan UMKM yang memperhatikan aspek ESG</td>
+        <td>Tinggi = Baik</td>
+        <td>Rendah = Kurang dukungan</td>
+      </tr>
+      <tr>
+        <td>Project Lunar (3.7, 5.3.C)</td>
+        <td>Proyek strategis terkait solusi likuiditas & value chain</td>
+        <td>Selesai = Baik</td>
+        <td>Belum selesai = Wajib follow-up</td>
+      </tr>
+      <tr>
+        <td>HC Score (L2–L5)</td>
+        <td>Skor pengembangan kompetensi SDM</td>
+        <td>Tinggi = Baik</td>
+        <td>Rendah = Kurang aktif</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="kertasKerja">
+    <h2>Kertas Kerja Nilai Kinerja</h2>
+
+    <h3>Perspektif Keuangan (Bobot Total: 62,5%)</h3>
+    <table>
+      <tr>
+        <th>No</th><th>KPI</th><th>Subkategori</th><th>Bobot (%)</th><th>Keterangan</th>
+      </tr>
+      <tr><td rowspan="2">1</td><td rowspan="2">Cost of Credit (%)</td><td>SME Banking</td><td>20,0</td><td rowspan="2">Semakin rendah, semakin baik</td></tr>
+      <tr><td>Micro Productive</td><td></td></tr>
+      <tr><td rowspan="2">2</td><td rowspan="2">Loan at Risk (Incl. COVID) %</td><td>SME Banking</td><td>15,0</td><td rowspan="2">Semakin rendah, semakin baik</td></tr>
+      <tr><td>Micro Productive</td><td></td></tr>
+      <tr><td rowspan="2">3</td><td rowspan="2">DPD 30+</td><td>SME Banking</td><td>10,0</td><td rowspan="2">Semakin rendah, semakin baik</td></tr>
+      <tr><td>Micro Productive</td><td></td></tr>
+      <tr><td rowspan="2">4</td><td rowspan="2">Booking Mix</td><td>SME Banking</td><td>10,0</td><td rowspan="2">Semakin tinggi, semakin optimal</td></tr>
+      <tr><td>Micro Productive</td><td></td></tr>
+      <tr><td>5</td><td>Cost to Income Ratio</td><td>-</td><td>7,5</td><td>Semakin rendah, semakin efisien</td></tr>
+    </table>
+
+    <h3>Perspektif Pelanggan (Bobot Total: 12,5%)</h3>
+    <table>
+      <tr><th>No</th><th>KPI</th><th>Subkategori</th><th>Bobot (%)</th><th>Keterangan</th></tr>
+      <tr><td rowspan="2">6</td><td rowspan="2">Average Balance Credit</td><td>SME Banking</td><td>2,5</td><td rowspan="2">Semakin tinggi, semakin baik</td></tr>
+      <tr><td>Micro Productive</td><td>5,0</td></tr>
+      <tr><td>7</td><td>Booking Kredit</td><td>Micro Productive</td><td>5,0</td><td>Semakin tinggi, semakin baik</td></tr>
+    </table>
+
+    <h3>Perspektif Bisnis Internal (Bobot Total: 20,0%)</h3>
+    <table>
+      <tr><th>No</th><th>KPI</th><th>Bobot (%)</th><th>Keterangan</th></tr>
+      <tr><td>8</td><td>Skor Internal Control Compliance & Fraud Group ≥ skor rata-rata UK</td><td>5,0</td><td>Skor ≥ rata-rata nasional = baik</td></tr>
+      <tr><td>9</td><td>Pembiayaan Kredit Berkelanjutan (UMKM)</td><td>5,0</td><td>Semakin tinggi, semakin baik</td></tr>
+      <tr><td>10</td><td>KSI Project Lunar SMR Group sesuai target</td><td>10,0</td><td>Tepat waktu = baik, mundur = perlu perbaikan</td></tr>
+    </table>
+
+    <h3>Perspektif Pengembangan (Bobot Total: 5,0%)</h3>
+    <table>
+      <tr><th>No</th><th>KPI</th><th>Bobot (%)</th><th>Keterangan</th></tr>
+      <tr><td>11</td><td>Komponen HC Score</td><td>5,0</td><td>Semakin tinggi, semakin baik</td></tr>
+    </table>
+  </section>
+
+  <script>
+    function showSection(id) {
+      const sections = document.querySelectorAll("section");
+      sections.forEach(section => section.classList.remove("active"));
+      document.getElementById(id).classList.add("active");
+    }
+  </script>
+</body>
+
+</html>
